@@ -1,0 +1,33 @@
+.weather-description{
+    font-family: inherit;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1{
+        font-size: xx-large;
+        margin: 0;
+        color: whitesmoke;
+    }
+
+    .weather-display{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        align-items: flex-start;
+
+        img{
+            width: 192px;
+            height: 192px;
+        }
+
+        h2{
+            margin: 0;
+            padding-top: 1.5rem;
+            color: whitesmoke;
+            font-weight: 500;
+        }
+    }
+}

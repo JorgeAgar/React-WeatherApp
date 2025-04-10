@@ -1,0 +1,18 @@
+.weather-card-big {
+  max-width: 1000px;
+  min-height: 400px;
+
+  background-color: #203050;
+  padding: 1.5rem;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

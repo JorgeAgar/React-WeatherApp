@@ -1,0 +1,53 @@
+.temperature-display {
+  font-family: inherit;
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    h2 {
+      margin: 0;
+      color: whitesmoke;
+      font-size: 4rem;
+    }
+
+    .units-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-start;
+
+      button {
+        background-color: transparent;
+        border: none;
+        font-size: 2rem;
+        font-weight: bold;
+        color: lightgray;
+      }
+
+      button .active {
+        color: whitesmoke;
+      }
+
+      button:hover {
+        color: white;
+      }
+    }
+  }
+
+  footer {
+    .feels-like {
+      margin: 0;
+      color: lightgray;
+      font-size: x-large;
+    }
+  }
+}
