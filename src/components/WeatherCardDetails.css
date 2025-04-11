@@ -51,8 +51,12 @@
             button{
                 background-color: transparent;
                 border: none;
-                color: lightgray;
+                color: gray;
                 font-size: large;
+            }
+
+            .active{
+                color: whitesmoke;
             }
 
             button:hover{

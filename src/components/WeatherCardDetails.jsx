@@ -5,6 +5,9 @@ export default function WeatherCardDetails({ humidity, wind_kph, wind_mph }) {
 
   const windValue = windMph ? wind_mph : wind_kph;
 
+  const mphActive = windMph ? "active" : "";
+  const kphActive = windMph ? "" : "active";
+
   function clickMph() {
     setWindMph(true);
   }
@@ -82,8 +85,8 @@ export default function WeatherCardDetails({ humidity, wind_kph, wind_mph }) {
         </svg>
         {windValue}
         <div className="wind-speed-buttons">
-          <button onClick={clickKph}>Km/h</button>
-          <button onClick={clickMph}>Mi/h</button>
+          <button onClick={clickKph} className={kphActive}>Km/h</button>
+          <button onClick={clickMph} className={mphActive}>Mi/h</button>
         </div>
       </span>
     </div>
