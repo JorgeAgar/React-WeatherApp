@@ -8,7 +8,7 @@ export default function TemperatureDisplay({
 }) {
   const [useFarenheit, setUseFarenheit] = useState(false);
 
-  const degreeValue = useFarenheit ? temp_f : temp_c;
+  const degreeValue = useFarenheit ? (temp_f*(1.8)+32) : temp_c;
 
   const degreeFeels = useFarenheit ? (feelslike_f + "°F") : (feelslike_c + "°C");
 

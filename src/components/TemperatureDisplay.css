@@ -17,6 +17,7 @@
       margin: 0;
       color: whitesmoke;
       font-size: 4rem;
+      font-weight: bold;
     }
 
     .units-buttons {
@@ -29,12 +30,13 @@
         background-color: transparent;
         border: none;
         font-size: 2rem;
-        font-weight: bold;
+        font-weight: normal;
         color: lightgray;
       }
 
-      button .active {
+      .active {
         color: whitesmoke;
+        font-weight: bold;
       }
 
       button:hover {
