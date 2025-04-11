@@ -9,6 +9,7 @@ export default function WeatherCardBig({ weather }) {
       <header>
         <WeatherDescription
           city={weather.location.name}
+          region={weather.location.region}
           weatherText={weather.current.condition.text}
           weatherIconUrl={weather.current.condition.icon}
         />
